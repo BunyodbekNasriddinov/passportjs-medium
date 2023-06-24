@@ -5,6 +5,8 @@ import cors from "cors"
 import { resolve } from "path"
 import allRotes from "./routes/all.routes.js"
 
+import './utils/passport.js'
+
 const app = express()
 
 const PORT = process.env.PORT || 5001
